@@ -7,7 +7,7 @@
     <title>Pagina chingona</title>
 </head>
 <body>
-    <h1>Hola putos de mierda les habla el anticristo 2007</h1>
+    <h1 id="top">Hola putos de mierda les habla el anticristo 2007</h1>
     <div>Como se centra el div?</div>
     <span>alch aun no entiendo bien para que es esta mamada</span>
     <h2>Hasta ahora aprendí a:</h2>
@@ -29,8 +29,45 @@
         <article>Article 2</article>
         <article>Article 3</article>
     </section>
+    <section>
+        Así pones un link junto al texto: 
+        <a href="same-directory.html" title="same dir link">Linking to a file in the same directory</a>
+
+        <a href="same-directory.html" title="same dir link">
+            <div> Y así haces un texto clickeable</div>
+        </a>
+        Ambos dentro del mismo repo
+    </section>
+    <section>
+        Para los link externos es parecido
+        <!-- El target blank se refiere a que abre el link en una nueva pestaña-->
+        <a href="https://twitter.com/BRN101Dev" target="_blank" title="Mi twitter">Mi twitter</a>
+    </section>
+    Se supone que así puedes poner como atajos en la misma pagina, como los capítulos de wikipedia o algo así
+    <ul>
+        <li><a href="#section1">section1</a></li>
+        <li><a href="#section2">section2</a></li>
+        <li><a href="#section3">section3</a></li>
+    </ul>
+    <section id="section1">
+        <h4>Section 1</h4>
+        <img src="bocchi.jpg" width="237.5" height="285" alt="Bocchi">
+        <div>Bocchi the Rock! (ぼっち・ざ・ろっく! Botchi za Rokku!?) es una serie de manga yonkoma japonesa escrita e ilustrada por Aki Hamaji. 
+            <br>Comenzó a serializarse en la revista Manga Time Kirara Max de Hōbunsha desde el 19 de diciembre de 2017, y se ha recopilado en cinco volúmenes tankōbon hasta el momento. 
+            <br>Una adaptación de la serie a anime producido por el estudio CloverWorks se estrenó el 8 de octubre de 2022.</div>
+    </section>
+    <section id="section2">
+        <h5>Section 2</h5>
+        <p>Texto texto texto</p>
+    </section>
+    <section id="section3">
+        <h6>Section 3</h6>
+        <p>Mucho texto</p>
     <h3>Menor que &lt;, Ampere &amp;, mayor que &gt;</h3>
     <p>&quot;Añadir comillas, simbolos de copy y dejar&nbsp;palabras&nbsp;juntas&quot;</p>
+    <p>
+        Back to top: <a href="#top">Back to Top</a>
+    </p>
     <footer>
         &copy; Compañia lol
     </footer>
